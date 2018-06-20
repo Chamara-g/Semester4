@@ -1,0 +1,14 @@
+1)If adding element is already in the set then we should do less than or equal N number of comparisons, else if that element not in the set then we should do N number of comparisons.
+
+2)I hear i'm remove first element of the set, if there N number of elements then 
+			remove first element - 1 operation
+			take one step forward every element in the set -  (N-1) operations
+			give null for last element - 1 operation
+
+	so that we need N+1 operations.
+
+3) if items sorted, then we can use recurcive algorithm to serach item in the set , we know recurcive algorithm is faster than iteration algorithms for some exmaples , so we can improve performance of the  code if sorted. 
+
+4)In hear option 1 is better than option 2. Beacuse in secound option you can seen in there first they get 'isEmpty()'	and then convert it into not that mean in 2nd one they check 1st option and then do another addition operation too. so 1 option is better than 2nd one.
+
+5) yes			
